@@ -24,18 +24,6 @@
             text-align: center;
         }
 
-        header::after {
-            content: '';
-            display: block;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            background: linear-gradient(to bottom, rgba(52, 58, 64, 0.8) 0%, rgba(52, 58, 64, 0.4) 50%, rgba(248, 249, 250, 0) 100%);
-            z-index: -1;
-        }
-
         nav {
             background-color: #343a40;
             color: #ffffff;
@@ -143,7 +131,7 @@
     <!-- ABOUT US -->
     <section id="about" class="container">
         <div class="about-container">
-            <h2 class="text-center mb-4 text-light fs-1">About <span id="span">Us</span></h2>
+            <h2 class="text-center mb-4 text-light fs-1" data-aos="fade-up" data-aos-duration="1500">About <span id="span">Us</span></h2>
             <div class="row">
                 <div class="col-md-6" data-aos="fade-up-right" data-aos-duration="2000">
                     <img src="img/tentang-kami.jpg" alt="About Us" class="about-image img-fluid">
@@ -161,8 +149,8 @@
     <!-- PRODUCT -->
     <section id="product" class="container">
         <div class="container">
-            <h2 class="text-center mb-4 fs-1 text-light">Our <span id="span">Product</span></h2>
-            <h5 class="text-center text-light">Berikut beberapa produk yang kami rekomendasikan untuk anda</h5>
+            <h2 class="text-center mb-4 fs-1 text-light" data-aos="fade-up" data-aos-duration="1500">Our <span id="span">Product</span></h2>
+            <h5 class="text-center text-light" data-aos="fade-up" data-aos-duration="1500">Berikut beberapa produk yang kami rekomendasikan untuk anda</h5>
             <div class="container mt-3">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-2" data-aos="fade-up-right" data-aos-duration="2000">
@@ -258,7 +246,7 @@
     <!-- END PRODUCT -->
 
     <!-- CONTACT -->
-    <section class="container" id="contact">
+    <section class="container" id="contact" data-aos="fade-up" data-aos-duration="2500">
         <h2 class="text-center mb-4 fs-1 text-light">Contact <span id="span">Us</span></h2>
         <div class="container mt-5 my-5">
             <div class="row justify-content-center">

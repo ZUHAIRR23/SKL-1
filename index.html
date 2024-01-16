@@ -25,6 +25,12 @@
             text-align: center;
         }
 
+        .header-logo {
+            border: 10px solid #000;
+            border-radius: 50%;
+        }
+
+
         nav {
             background-color: #343a40;
             color: #ffffff;
@@ -89,6 +95,20 @@
             color: white;
             font-size: x-large;
         }
+
+        /* Scroll Bar */
+        ::-webkit-scrollbar {
+            width: 7px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #010101;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(113, 113, 243);
+            border-radius: 20px;
+        }
     </style>
 </head>
 
@@ -125,7 +145,7 @@
     <!-- HEADER -->
     <header id="home">
         <div class="container">
-            <img src="img/logo3.jpg" alt="Company Logo" class="img-fluid rounded-circle mb-4 w-25">
+            <img src="img/logo3.jpg" alt="Company Logo" class="img-fluid rounded-circle mb-4 w-25 header-logo">
             <h1 class="display-4">Jamiilah <span id="span">Hijab</span></h1>
             <p class="lead">keeping your beauty with hijab</p>
         </div>

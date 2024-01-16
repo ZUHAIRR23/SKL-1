@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #505050;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(img/header-bg.jpg);
+    background-attachment: fixed;
+    color: #ffffff;
+    padding: 210px 0;
+    position: relative;
+    text-align: center;
+}
+
+.header-logo {
+    border: 10px solid #000;
+    border-radius: 50%;
+}
+
+
+nav {
+    background-color: #343a40;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+section {
+    padding: 120px 100px 0;
+}
+
+#span {
+    color: #448fdb;
+}
+
+footer {
+    background-color: #448fdb;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer .socials {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+footer .socials a {
+    color: #fff;
+    margin: 1rem;
+}
+
+.about-container {
+    padding: 40px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transition: 1s;
+
+}
+
+.lorem {
+    color: white;
+    font-size: x-large;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #505050;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #448fdb;
+    border-radius: 20px;
+}

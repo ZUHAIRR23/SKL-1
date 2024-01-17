@@ -15,7 +15,8 @@ header {
 }
 
 .header-logo {
-    border: 10px solid #000;
+    width: 20rem;
+    border: 8.5px solid #000;
     border-radius: 50%;
 }
 

@@ -10,6 +10,7 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #ffffff;
     padding: 210px 0;
     position: relative;
